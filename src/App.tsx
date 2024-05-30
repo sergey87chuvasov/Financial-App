@@ -1,9 +1,10 @@
+import Nav from "./sections/Nav";
 
 function App() {
 
   return (
     <>
-      <h1 className="">APP</h1>
+      <Nav />
     </>
   )
 }
