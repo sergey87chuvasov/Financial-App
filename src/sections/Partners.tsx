@@ -28,11 +28,44 @@ function Partners() {
         </p>
       </article>
       <div className="xl:flex xl:justify-center">
-        <article className="mb-8 flex justify-center gap-8 text-center">
-          <img src={Klarna} alt="partner pic" className="w-20 md:w-36" />
-          <img src={Stripe} alt="partner pic" className="w-20 md:w-36" />
-          <img src={PayPal} alt="partner pic" className="w-20 md:w-36" />
-        </article>
+        <LogoWall
+          src1={Klarna}
+          src2={Stripe}
+          src3={PayPal}
+          alt1="partner pic"
+          alt2="partner pic"
+          alt3="partner pic"
+          className="w-20 md:w-36"
+        />
+        <LogoWall
+          src1={Bedc}
+          src2={Mastercard}
+          src3={Mtn}
+          alt1="partner pic"
+          alt2="partner pic"
+          alt3="partner pic"
+          className="w-20 md:w-36"
+        />
+      </div>
+      <div className="xl:flex xl:justify-center">
+        <LogoWall
+          src1={Airtel}
+          src2={Payoneer}
+          src3={Visa}
+          alt1="partner pic"
+          alt2="partner pic"
+          alt3="partner pic"
+          className="w-20 md:w-36"
+        />
+        <LogoWall
+          src1={Mobile}
+          src2={Ikeja}
+          src3={Dstv}
+          alt1="partner pic"
+          alt2="partner pic"
+          alt3="partner pic"
+          className="w-20 md:w-36"
+        />
       </div>
     </section>
   );
