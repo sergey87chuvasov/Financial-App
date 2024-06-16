@@ -4,7 +4,7 @@ import StoreLinks from "../common/StoreLinks";
 function Reviews() {
   const slides = [
     {
-      src: "https://images.unsplash.com/photo-1718203694879-766b434639f2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "https://images.unsplash.com/photo-1702905719233-1cac5aca0b3f?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       text: '"Kobodrop has helped me send and receive money with little to no complications. It´s what everyone who wants to be on top of their money needs!"',
       name: "Haruka Sato",
       country: "Japan",
