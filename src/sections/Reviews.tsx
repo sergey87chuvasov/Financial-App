@@ -1,5 +1,5 @@
 import Carousel from "../common/Carousel";
-import StoreLinks from "../common/StoreLinks";
+import StoreLinks, { BtnTypes } from "../common/StoreLinks";
 
 function Reviews() {
   const slides = [
@@ -32,7 +32,7 @@ function Reviews() {
         <h2 className="mb-4 max-w-[16ch] text-center text-4xl font-semibold text-gray-800 lg:w-full lg:text-left">
           Join other thousands of people growing with Kobodrop
         </h2>
-        <StoreLinks />
+        <StoreLinks type={BtnTypes.Standart} />
       </article>
       <Carousel slides={slides} />
     </section>
